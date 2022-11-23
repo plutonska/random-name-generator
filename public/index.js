@@ -1,4 +1,6 @@
 function generator() {
+    const port = process.env.port || 5500
+    app.listen(port)
     let input = document.getElementById("qty").value;
 
     for (let i = 0; i < input; i++) {
