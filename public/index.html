@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>random name generator</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <script src="main.js"></script>
+    <main
+      class="min-h-screen py-40"
+      style="background-image: linear-gradient(115deg, #9f7aea, #c2f2ec)"
+    >
+      <form>
+        <div
+          class="bg-white w-96 p-7 rounded shadow-lg mx-auto overflow-hidden"
+        >
+          <p
+            class="flex items-center justify-center font-bold text-purple-900 font-neo-sans-bold"
+          >
+            Random name generator
+          </p>
+          <h1
+            class="flex items-center justify-center text-2xl font-bold mb-8 font-neo-sans-bold"
+          >
+            Generate a unique name
+          </h1>
+          <input
+            type="text"
+            id="qty"
+            class="outline-none flex items-center justify-center bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-cyan focus:border-purple-400 w-60 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-400 dark:focus:border-purple-400 mx-auto"
+            placeholder="Amount"
+            required
+          />
+          <button
+            onclick="generator()"
+            class="flex items-center justify-center text-lg text-black mx-auto mt-4 rounded w-40 hover:bg-purple-800 hover:text-gray-300 font-bold font-neo-sans-bold bg-purple-500"
+          >
+            Generate
+          </button>
+          <div class="mt-10 rounded-lg" style="background-color: #f2f2f3">
+            <span
+              id="result"
+              class="flex items-center justify-center p-15 font-monospace font-semibold text-xl"
+            ></span>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

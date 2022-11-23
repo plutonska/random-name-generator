@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neo-sans-bold";
+  src: url("./fonts/Neo-Sans-Bold.ttf");
+
+  font-family: "Neo-Sans-Std-Bold";
+  src: url("./fonts/Neo-Sans-Std-Bold.otf");
+
+  font-family: "Neo-Sans-Std-Light";
+  src: url("./fonts/Neo-Sans-Std-Light.otf");
+
+  font-family: "Neo-Sans-Std-Regular";
+  src: url("./fonts/Neo-Sans-Std-Regular.otf");
+
+  font-family: "neo-latina";
+  src: url("./fonts/neo-latina.ttf");
+
+  font-family: "adelia";
+  src: url("./fonts/adelia.ttf");
+
+  font-family: "monospace";
+  src: url("./fonts/monospace.ttf");
+}
