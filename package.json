@@ -4,7 +4,7 @@
   "description": "",
   "main": "./public/main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./public/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
   },
